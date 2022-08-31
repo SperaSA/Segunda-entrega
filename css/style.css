@@ -1,0 +1,242 @@
+
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: rgb(255 255 255);
+    text-decoration: none;
+    transition: 3s;
+   
+}
+
+.navbar-nav a:hover {
+    -webkit-text-stroke: 1px gold;
+    font-size: 25px;
+    transform: rotateX(360deg);
+    transform: translate(-5px, -6px);
+
+}
+
+.fondo{
+    box-shadow: inset 0 0 5rem rgb(0 0 0 / 50%);
+    background-size: 100% 1000px;
+    background-attachment: fixed;
+}
+
+
+
+.logo{
+    transition: 10s;
+
+}
+
+.logo:hover {
+    transform: rotateZ(360deg)
+}
+
+.navbar{
+    padding: 1rem;
+
+}
+
+
+.presentacion{
+    display: flex;
+    justify-content: center;
+    min-height: 73vh;
+    padding: 70px;
+
+
+}
+
+.carta {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.mapa {
+    width: 47%;
+    padding: 10px;
+}
+
+.texto {
+    width: 53%;
+    padding: 10px;
+}
+
+.rounded-start{
+    height: 60vh;
+}
+
+.row {
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 25px;
+
+}
+
+.card{
+    background-color: rgba(110, 127, 163, 0.377);
+    margin: 25px;
+    height: 30vh;
+
+}
+
+.carousel{
+    width: 250vh;
+
+}
+
+.carousel-inner{
+    display: flex;
+}
+
+.clientes{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item img{
+    height: 150px;
+    width: px;
+    display: flex;
+}
+
+
+.card-title{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(183, 204, 218, 0.096);
+    padding: 10px;
+}
+
+.card-text{
+    padding: 10px;
+    background-color: rgba(183, 204, 218, 0.096);
+}
+
+
+.collapse{
+    flex-direction: row-reverse;
+    font-size: large;
+    font-weight: bold;
+}
+
+.logo{
+    width: 90px;
+}
+
+.color-navbar{
+    background-color: transparent;
+    background-color: #11020245;
+}
+
+.card-img-top{
+    padding-top: 10px;
+}
+
+.navbar a.activo {
+    -webkit-text-stroke: 1px gold;
+}
+
+
+
+.footer-style {
+    padding-top: 15px;
+    background-color: rgba(77, 77, 77, 0.815);
+    margin-top: 25px;
+
+}
+
+footer h3 {
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+footer .footer-above {
+  padding-top: 50px;
+  background-color: rgba(82, 82, 82, 0.815);
+}
+footer .footer-col {
+  margin-bottom: 10px;
+}
+footer .footer-below {
+  padding: 25px 0;
+  background-color: rgba(88, 88, 88, 0.815);
+}
+
+.direccion{
+    color: rgb(0, 0, 0);
+    transition: 4s;
+}
+
+
+.direccion:hover{
+    color: white;
+    transition: 4s;
+}
+
+.redes{
+    color: rgb(0, 0, 0);
+    transition: 4s;
+}
+
+.redes:hover{
+    color: white;
+    transition: 4s;
+}
+
+.whatsapp{
+    color: rgb(0, 0, 0);
+    transition: 4s;
+    
+}
+
+.whatsapp:hover{
+    color: white;
+    transition: 4s;
+}
+
+.instagram{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.foot{
+   display: flex;
+   justify-content: center;
+}
+
+.w{
+    transition: 3s;
+}
+
+.w:hover{
+    color: white;
+    -webkit-transform: scale(1.5);
+    transform: translateY(12px) scale(1.5)
+
+}
+
+.i{
+    transition: 3s;
+}
+
+.i:hover{
+    color: white;
+    -webkit-transform: scale(1.5);
+    transform: translateY(12px) scale(1.5)
+}
+
+.u{
+    transition: 3s;
+}
+
+.u:hover{
+    color: white;
+    -webkit-transform: scale(1.5);
+    transform: translateY(12px) scale(1.5)
+}
